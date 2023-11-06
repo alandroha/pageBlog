@@ -1,7 +1,7 @@
 gsap.registerPlugin(ScrollTrigger);
 gsap.registerPlugin(ScrollToPlugin);
-gsap.registerPlugin(SplitText);
-gsap.registerPlugin(ScrollSmoother);
+// gsap.registerPlugin(SplitText);
+// gsap.registerPlugin(ScrollSmoother);
 
 console.clear();
 
@@ -13,16 +13,16 @@ const slides = selectAll(".slide");
 const links = selectAll(".slide__scroll-link");
 const site = selectAll(".slide__link-site");
 const titles = selectAll('.col__content-title');
-const introTitle = new SplitText('.intro__title', {type: "lines", linesClass: "intro-line"});
-const splitTitles = new SplitText(titles, {type: "lines, chars", linesClass: "line", charsClass: "char", position: "relative" });
+// const introTitle = new SplitText('.intro__title', {type: "lines", linesClass: "intro-line"});
+// const splitTitles = new SplitText(titles, {type: "lines, chars", linesClass: "line", charsClass: "char", position: "relative" });
 let slideID = 0;
 
-const smoother = ScrollSmoother.create({
-    smooth: 1,
-    effects: true,
-    normalizeScroll: true,
-    smoothTouch: .5,
-});
+// const smoother = ScrollSmoother.create({
+//     smooth: 1,
+//     effects: true,
+//     normalizeScroll: true,
+//     smoothTouch: .5,
+// });
 
 function initHeader() {
     
