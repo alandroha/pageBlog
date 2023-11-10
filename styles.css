@@ -87,7 +87,7 @@ p {
 
 .link a{
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-family: "Cinzel", serif;
     font-weight: 300;
     color: var(--dark);
@@ -173,10 +173,10 @@ p {
 }
 
 .intro__title {
-    font-size: 25vw;
+    font-size: 10vw;
     overflow: hidden;
-    letter-spacing: -2.3vw;
-    padding-right: 2.3vw;
+    letter-spacing: -.5vw;
+    padding-right: 1vw;
 }
 
 @media all and (max-width: 768px) {
@@ -380,8 +380,8 @@ p {
       ========================================================================== */
 .col__content-title {
     margin: 0 0 2vw;
-    font-size: 5vw;
-    letter-spacing: -0.2vw;
+    font-size: 3vw;
+    letter-spacing: -0.1vw;
 }
 
 @media all and (max-width: 768px) {
